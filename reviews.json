@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Pride and Prejudice",
+    "reviewText": "Austen's wit and critique of societal expectations are as delightful and relevant as ever.",
+    "rating": 4,
+    "likes": 18,
+    "reposts": 7
+  },
+  {
+    "id": 2,
+    "title": "The Catcher in the Rye",
+    "reviewText": "Salinger's portrayal of teenage alienation and loss of innocence is thought-provoking.",
+    "rating": 4,
+    "likes": 10,
+    "reposts": 3
+  },
+  {
+    "id": 3,
+    "title": "1984",
+    "reviewText": "Orwell's chilling vision of totalitarianism remains hauntingly relevant even today.",
+    "rating": 5,
+    "likes": 25,
+    "reposts": 9
+  },
+  {
+    "id": 4,
+    "title": "To Kill a Mockingbird",
+    "reviewText": "Harper Lee delivers a powerful narrative on justice, race, and moral growth in America.",
+    "rating": 5,
+    "likes": 30,
+    "reposts": 12
+  },
+  {
+    "id": 5,
+    "title": "The Great Gatsby",
+    "reviewText": "Fitzgerald’s portrayal of the Jazz Age and the American dream is both dazzling and tragic.",
+    "rating": 4,
+    "likes": 22,
+    "reposts": 8
+  },
+  {
+    "id": 6,
+    "title": "Moby Dick",
+    "reviewText": "Melville's epic tale of obsession and revenge, filled with philosophical depth and vivid descriptions.",
+    "rating": 3,
+    "likes": 8,
+    "reposts": 2
+  },
+  {
+    "id": 7,
+    "title": "The Hobbit",
+    "reviewText": "A light-hearted prelude to The Lord of the Rings, packed with adventure, humor, and heart.",
+    "rating": 5,
+    "likes": 40,
+    "reposts": 15
+  },
+  {
+    "id": 8,
+    "title": "Frankenstein",
+    "reviewText": "Mary Shelley explores the dangers of unchecked ambition and scientific overreach.",
+    "rating": 4,
+    "likes": 12,
+    "reposts": 5
+  },
+  {
+    "id": 9,
+    "title": "Jane Eyre",
+    "reviewText": "Charlotte Brontë delivers a rich, emotional journey of resilience, love, and independence.",
+    "rating": 5,
+    "likes": 20,
+    "reposts": 6
+  },
+  {
+    "id": 10,
+    "title": "The Alchemist",
+    "reviewText": "Paulo Coelho's simple but powerful fable about following one's dreams resonates universally.",
+    "rating": 4,
+    "likes": 35,
+    "reposts": 14
+  }
+]

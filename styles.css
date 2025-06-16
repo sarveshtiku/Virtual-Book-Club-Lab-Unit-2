@@ -1,74 +1,187 @@
-body {
-    font-family: Rubik, sans-serif;
+/* Reset */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #F4F9F0;
 }
 
+/* Global */
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #F4F9F0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
 header {
     background-color: #B3D89C;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
-}
-
-main {
-    padding: 20px;
-    display: flex;
-}
-
-section {
-    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 h1 {
-    font-family: Licorice, sans-serif;
-    font-size: 8em;
+    font-family: 'Licorice', cursive;
+    font-size: 5rem;
+    color: #2E2E2E;
 }
 
-#reviews-section {
-    flex-grow: 2;
+/* Layout */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 40px;
+    justify-content: center;
 }
 
-#review-form-section,
-#reviews-section {
-    margin-bottom: 20px;
+/* Review Form */
+#review-form-section {
+    flex: 0 0 300px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 30px;
+    height: fit-content;
 }
 
-#review-form label,
+#review-form label {
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+}
+
 #review-form input,
 #review-form textarea,
-#review-form select,
-#review-form button {
-    display: block;
+#review-form select {
     width: 100%;
-    margin-top: 10px;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
 }
 
-button {
-    background-color: #4E4187;
-    font-family: Rubik, sans-serif;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #C1BADE;
-    color: black;
-}
-
-#reviews-list {
+#review-form button {
     margin-top: 20px;
+    background-color: #4E4187;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+#review-form button:hover {
+    background-color: #C1BADE;
+    color: #333;
+}
+
+/* Reviews Container */
+#reviews-section {
+    flex: 1;
+}
+
+/* Review Card */
 .review-item {
     background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 35px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+    transition: 0.3s;
 }
 
 .review-item:hover {
-    background-color: #f9f9f9;
+    transform: translateY(-5px);
+}
+
+/* Buttons inside Review Card */
+.review-item button {
+    background-color: #4E4187;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 10px 20px 0;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.review-item button:hover {
+    background-color: #C1BADE;
+    color: #333;
+}
+
+/* Comments Section */
+.comments-section {
+    background-color: #f6f6f6;
+    border-left: 6px solid #B3D89C;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.comments-section h4 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.comments-section div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.comments-section p {
+    padding: 10px 15px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    flex: 1;
+}
+
+.comments-section button {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: red;
+    cursor: pointer;
+}
+
+.comments-section form {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.comments-section input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.comments-section form button {
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #4E4187;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.comments-section form button:hover {
+    background-color: #C1BADE;
+    color: #333;
 }
