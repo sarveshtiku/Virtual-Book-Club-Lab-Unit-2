@@ -2,7 +2,7 @@
 
 An interactive full-stack-style web application where book enthusiasts can post reviews, leave comments, rate books, and interact with other users — all built using vanilla JavaScript, HTML, and CSS.
 
-> This project was created as part of the Codepath Summer Internship program.
+> This lab is deployed using vercel: [Web App Link](https://virtual-book-club-lab-unit-2.vercel.app/)
 
 ---
 
